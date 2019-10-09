@@ -9,14 +9,14 @@ import { Component } from '@angular/core';
 export class CalcComponent{
   calcName = 'CalCalc';
 
-  isEnabled = false;
+  isEnabled = true;
 
   /*constructor(){
     this.isEnabled = true;
   }*/
 
   addition($event:event){
-    this.isEnabled = true;
+    this.isEnabled = false;
   }
 
 }
