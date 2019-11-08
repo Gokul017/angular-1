@@ -15,7 +15,7 @@ export class CalcComponent{
     this.isEnabled = true;
   }*/
 
-  addition($event:event){
+  addition(event){
     this.isEnabled = false;
   }
 
